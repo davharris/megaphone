@@ -22,6 +22,7 @@ megaphone.fit = function(
   )
   out$n.attempted.samples = 0
   out$x = x
+  out$sampling.time = 0
     
   class(out) = "megaphone"
   

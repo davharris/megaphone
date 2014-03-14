@@ -1,12 +1,6 @@
 estimate.volume = function(object){
-  extents = apply(
-    object$x, 
-    2, 
-    function(z){
-      max(z) - min(z)
-    }
-  )
-  max.volume = prod(extents)
+  
+  max.volume = prod(object$extents)
   proportion.inside = nrow(object$retained.samples) / object$n.attempted.samples
   
   raw.ci = qbinom(

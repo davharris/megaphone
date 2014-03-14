@@ -8,7 +8,7 @@ Maintainer: David J. Harris <davharris@ucdavis.edu>
 Description: More about what it does (maybe more than one line)
 License: BSD_2_clause
 Depends:
-    e1071
+    e1071, mvtnorm
 Collate:
     'add.samples.R'
     'estimate.volume.R'
